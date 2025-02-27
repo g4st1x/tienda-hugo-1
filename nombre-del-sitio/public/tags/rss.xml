@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/" hreflang="en" rel="self" type="text/html"/>
+            
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        
+            <description>Browse by tag.</description>
+        
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Wed, 26 Feb 2025 20:03:52 -03</lastBuildDate>
+        
+
+        
+            <link>//localhost:1313/tags/</link>
+        
+
+        
+
+        
+            <title>Tags</title>
+        
+
+        
+
+        
+    </channel>
+</rss>

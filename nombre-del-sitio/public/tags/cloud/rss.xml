@@ -1,0 +1,163 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+        
+
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/cloud/" hreflang="en" rel="self" type="text/html"/>
+            
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/cloud/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Wed, 26 Feb 2025 20:03:52 -03</lastBuildDate>
+        
+
+        
+            <link>//localhost:1313/tags/cloud/</link>
+        
+
+        
+
+        
+            <title>Cloud · Tags</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>The <code>paige/cloud</code> layout displays list page links as a link cloud.</p>
+<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">layout</span>: <span style="color:#e6db74">&#34;paige/cloud&#34;</span>
+</span></span></code></pre></div><p>Result:</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/layouts/cloud/</guid>
+                    
+
+                    
+                        <link>//localhost:1313/layouts/cloud/</link>
+                    
+
+                    
+                        
+                        
+
+                        
+                        
+
+                        
+                            <atom:link href="//localhost:1313/layouts/cloud/" hreflang="en" rel="self" type="text/html"/>
+                        
+                    
+                        
+                        
+
+                        
+                        
+
+                        
+                            <atom:link href="//localhost:1313/layouts/cloud/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+                        
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                    
+
+                    
+                        <title>Cloud</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>

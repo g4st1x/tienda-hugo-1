@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+        
+
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/link/" hreflang="en" rel="self" type="text/html"/>
+            
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/link/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Wed, 26 Feb 2025 20:03:52 -03</lastBuildDate>
+        
+
+        
+            <link>//localhost:1313/tags/link/</link>
+        
+
+        
+
+        
+            <title>Link · Tags</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+                        
+
+                        
+
+                        
+                    
+
+                    
+
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>It takes you to the home page.</p>
+<p><a href="//localhost:1313/content/link/">⏎</a></p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/content/link/</guid>
+                    
+
+                    
+                        <link>https://willfaught.com/paige</link>
+                    
+
+                    
+                        
+                        
+
+                        
+                        
+
+                        
+                            <atom:link href="//localhost:1313/content/link/" hreflang="en" rel="self" type="text/html"/>
+                        
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                    
+
+                    
+                        <title>Link</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>

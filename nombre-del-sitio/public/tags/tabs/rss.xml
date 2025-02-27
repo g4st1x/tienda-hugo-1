@@ -1,0 +1,375 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+        
+
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/tabs/" hreflang="en" rel="self" type="text/html"/>
+            
+        
+            
+            
+
+            
+
+            
+                <atom:link href="//localhost:1313/tags/tabs/rss.xml" hreflang="en" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Wed, 26 Feb 2025 20:03:52 -03</lastBuildDate>
+        
+
+        
+            <link>//localhost:1313/tags/tabs/</link>
+        
+
+        
+
+        
+            <title>Tabs · Tags</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>The <code>paige/tabs</code> shortcode displays content in tabs.</p>
+<h2 id="basic">Basic</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">buttons</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>JSON<span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>TOML<span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>YAML<span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">buttons</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">panes</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;json&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>{&#34;foo&#34;: 123}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;toml&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>foo = 123
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yaml&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>foo: 123
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">panes</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+    
+
+
+
+
+<div class="paige-tabs">
+    
+
+
+
+
+<div class="paige-tab-buttons">
+    <ul class="mb-3 nav nav-tabs" role="tablist">
+        
+
+
+
+
+
+
+
+
+
+
+
+<li class="nav-item" role="presentation">
+    <button aria-controls="paige-tabs-0-pane-1" aria-selected="true" class=" active  nav-link" data-bs-target="#paige-tabs-0-pane-1" data-bs-toggle="tab" id="paige-tabs-0-button-1" role="tab" type="button">JSON</button>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="nav-item" role="presentation">
+    <button aria-controls="paige-tabs-0-pane-2" aria-selected="false" class=" nav-link" data-bs-target="#paige-tabs-0-pane-2" data-bs-toggle="tab" id="paige-tabs-0-button-2" role="tab" type="button">TOML</button>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="nav-item" role="presentation">
+    <button aria-controls="paige-tabs-0-pane-3" aria-selected="false" class=" nav-link" data-bs-target="#paige-tabs-0-pane-3" data-bs-toggle="tab" id="paige-tabs-0-button-3" role="tab" type="button">YAML</button>
+</li>
+    </ul>
+</div>
+
+
+
+
+
+<div class="paige-tab-panes">
+    <div class="tab-content">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div aria-labelledby="paige-tabs-0-button-1" class=" active  fade  show  tab-pane" id="paige-tabs-0-pane-1" role="tabpanel" tabindex="0"><!-- raw HTML omitted -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div aria-labelledby="paige-tabs-0-button-2" class=" fade  tab-pane" id="paige-tabs-0-pane-2" role="tabpanel" tabindex="0"><!-- raw HTML omitted -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div aria-labelledby="paige-tabs-0-button-3" class=" fade  tab-pane" id="paige-tabs-0-pane-3" role="tabpanel" tabindex="0"><!-- raw HTML omitted -->
+</div>
+    </div>
+</div>
+</div>
+
+<h2 id="figure">Figure</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">figure</span> <span style="color:#a6e22e">caption</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Tabs&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">buttons</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>JSON<span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>TOML<span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>YAML<span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">button</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">buttons</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">panes</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;json&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>{&#34;foo&#34;: 123}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;toml&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>foo = 123
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yaml&#34;</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>foo: 123
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">code</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">pane</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">panes</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">tabs</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">paige</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">figure</span> <span style="color:#960050;background-color:#1e0010">&gt;</span><span style="color:#75715e">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="paige-shortcode-figure ">
+<div class="align-items-center d-flex  h-100 justify-content-center ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Tabs</figcaption>
+
+</figure>
+</div>
+</div>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/shortcodes/tabs/</guid>
+                    
+
+                    
+                        <link>//localhost:1313/shortcodes/tabs/</link>
+                    
+
+                    
+                        
+                        
+
+                        
+                        
+
+                        
+                            <atom:link href="//localhost:1313/shortcodes/tabs/" hreflang="en" rel="self" type="text/html"/>
+                        
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                    
+
+                    
+                        <title>Tabs</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>
